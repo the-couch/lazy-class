@@ -1,0 +1,39 @@
+{
+  "name": "lazy-class",
+  "version": "0.1.1",
+  "description": "Lazy add classes to DOM elements",
+  "main": "dist/lazy-class.min.js",
+  "jsnext:main": "src/lazy-class.js",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/the-couch/lazy-class.git"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla",
+    "es6"
+  ],
+  "author": "iamkevingreen <meetus@thecouch.nyc> (http://thecouch.nyc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-couch/lazy-class/issues"
+  },
+  "homepage": "https://github.com/the-couch/lazy-class#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    "mkdirp": "*",
+    "node-notifier": "*",
+    "rollup": "*",
+    "rollup-plugin-babel": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-node-resolve": "*",
+    "rollup-plugin-uglify": "*"
+  }
+}
