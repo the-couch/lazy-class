@@ -1,7 +1,7 @@
 # Lazy-Class.js  [![npm](https://img.shields.io/npm/v/lazy-class.svg?maxAge=2592000)](https://www.npmjs.com/package/lazy-class)
 
 
-Lazy appended classes to DOM elements.
+Lazy append classes to DOM elements.
 
 ### npm
 
