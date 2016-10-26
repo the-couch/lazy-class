@@ -27,7 +27,7 @@ let lazy = (el, className, timing, options = {}) => {
   let sT = (e) => {
     setTimeout(() => { classSwap(e, change, className) }, timing)
   }
-  el.length ? Array.from(el, (e) => { sT(e) }) : sT(el)
+  el.length ? [].forEach.call(el, (e) => { sT(e) }) : sT(el)
 }
 
 exports.lazy = lazy
